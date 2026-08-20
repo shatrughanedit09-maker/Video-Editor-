@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shatrughan Singhania — Video Editor &amp; VFX Editor</title>
+<meta name="description" content="Freelance video editor specializing in cinematic editing, VFX, short-form content, brand videos and real estate video editing. Based in India, available worldwide.">
+<meta name="theme-color" content="#0a0a0b">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Shatrughan Singhania — Video Editor & VFX Editor">
+<meta property="og:description" content="Cinematic edits, VFX and high-retention visual content for creators, brands and real estate — 3+ years behind the timeline.">
+<meta property="og:image" content="assets/images/posters/hero-loop.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Shatrughan Singhania — Video Editor & VFX Editor">
+<meta name="twitter:image" content="assets/images/posters/hero-loop.jpg">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/images/favicon-180.png">
+
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=general-sans@400,500,600,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap">
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/gallery.css">
+<link rel="stylesheet" href="css/portfolio.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<div class="tc-hud" id="tcHud" aria-hidden="true">
+  <span class="rec-dot"></span>
+  <span class="tc-label">REC</span>
+  <span class="tc-value" id="tcValue">00:00:00:00</span>
+</div>
+
+<!-- ============================== NAV ============================== -->
+<header class="nav" id="nav">
+  <a href="#hero" class="nav__mark">
+    <span class="ring">SS</span>
+    <span>Shatrughan&nbsp;Singhania</span>
+  </a>
+  <nav class="nav__links">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#real-estate">Real Estate</a>
+    <a href="#instagram-management">Instagram</a>
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+  </nav>
+  <a href="#contact" class="btn btn-ghost nav__cta magnetic">Work With Me</a>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <nav class="menu-overlay__links">
+    <a href="#hero" data-menu-link><span>00</span>Home</a>
+    <a href="#about" data-menu-link><span>01</span>About</a>
+    <a href="#work" data-menu-link><span>02</span>Selected Work</a>
+    <a href="#real-estate" data-menu-link><span>03</span>Real Estate</a>
+    <a href="#instagram-management" data-menu-link><span>04</span>Instagram</a>
+    <a href="#services" data-menu-link><span>05</span>Services</a>
+    <a href="#process" data-menu-link><span>06</span>Process</a>
+    <a href="#contact" data-menu-link><span>07</span>Contact</a>
+  </nav>
+  <div class="menu-overlay__foot">
+    <a href="mailto:shatrughanedit09@gmail.com">shatrughanedit09@gmail.com</a>
+    <a href="tel:+916387413171">+91 63874 13171</a>
+    <a href="https://www.instagram.com/shatrughan_singhania_00/" target="_blank" rel="noopener">Instagram ↗</a>
+  </div>
+</div>
+
+<main>
+
+<!-- ============================== HERO ============================== -->
+<section class="hero" id="hero">
+  <div class="hero__bars hero__bars--top"></div>
+  <div class="hero__bars hero__bars--bottom"></div>
+  <div class="hero__media vf" id="heroMedia">
+    <video autoplay muted loop playsinline preload="auto"
+      poster="assets/images/posters/hero-loop.jpg"
+      src="assets/video/hero-loop.mp4"></video>
+    <div class="vf-c2"></div>
+  </div>
+  <div class="hero__scrim"></div>
+
+  <div class="hero__scroll">Scroll to explore</div>
+
+  <div class="hero__content">
+    <div class="hero__eyebrow eyebrow">Video Editor &amp; VFX Editor <span class="tc">— India, Available Worldwide</span></div>
+    <h1 class="hero__name">
+      <span>Shatrughan</span><span>Singhania</span>
+    </h1>
+
+    <div class="hero__meta">
+      <div>
+        <div class="hero__roles"><em>Video Editor</em> · <em>VFX Editor</em> · <em>Visual Storyteller</em></div>
+        <p class="hero__desc">Cinematic edits, VFX and high-retention visual content for creators, brands and real estate. Editing first — shooting available on request.</p>
+        <div class="hero__badge">★ 3+ Years Experience</div>
+      </div>
+      <div class="hero__actions">
+        <a href="#work" class="btn btn-primary magnetic">View Selected Work</a>
+        <a href="#contact" class="btn btn-ghost magnetic">Work With Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== ABOUT ============================== -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="slate reveal"><span class="n">Scene 01</span> — About</div>
+    <div class="about" style="margin-top:2.2rem;">
+      <div class="about__media vf reveal" data-reveal>
+        <img src="assets/images/about-portrait.jpg" alt="Shatrughan Singhania" loading="lazy">
+        <span class="about__tag">Shahjahanpur, IN</span>
+        <div class="vf-c2"></div>
+      </div>
+      <div class="about__body">
+        <p class="reveal" data-reveal><strong>Shatrughan Singhania</strong> is a freelance video editor and VFX editor with 3+ years spent behind the timeline — cutting cinematic edits, VFX and campaign content for creators, brands and real estate businesses that span fashion, travel, hospitality and events, including a fashion creator with an audience north of 80K.</p>
+        <p class="reveal" data-reveal>It started with travel footage — a fascination with wide compositions, natural light, and footage that feels like a memory rather than a video. That eye for a frame now drives everything he cuts: pacing, storytelling, sound design, colour, motion and VFX. Post-production is the strongest skill; shooting is available when a client specifically needs it.</p>
+        <p class="reveal" data-reveal>He also runs <strong>Shahjahanpur Adswala</strong>, a content and social media agency — so brand thinking isn't bolted on after the edit, it's part of the first cut. The result is work that looks cinematic and performs commercially.</p>
+
+        <blockquote class="about__quote reveal" data-reveal>“Retention first, aesthetics always. A beautiful edit nobody finishes is just a beautiful waste of footage.”</blockquote>
+
+        <div class="about__stats reveal" data-reveal>
+          <div class="about__stat"><b>3+</b><span>Years Behind&nbsp;the&nbsp;Timeline</span></div>
+          <div class="about__stat"><b>5</b><span>Niches&nbsp;Covered</span></div>
+          <div class="about__stat"><b>2</b><span>Core&nbsp;Edit&nbsp;Suites</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== WHY WORK WITH ME ======================== -->
+<section class="section" id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="slate reveal"><span class="n">Scene 02</span> — Why Work With Me</div>
+      <h2 class="reveal" data-reveal>Craft, with a brand brain attached.</h2>
+      <p class="reveal" data-reveal>Five things every client gets, whether the deliverable is a 15-second reel or a full brand film.</p>
+    </div>
+
+    <div class="values reveal" data-reveal>
+      <div class="value-card">
+        <div class="value-card__icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M7 5L15 10L7 15V5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <h3>Creative Storytelling</h3>
+          <p>Every video has a purpose and an emotion — nothing gets cut just because it looks nice.</p>
+        </div>
+      </div>
+      <div class="value-card">
+        <div class="value-card__icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 15L8 9L11.5 12L17 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <h3>Commercial Understanding</h3>
+          <p>Content built to help brands grow — not just to look good in a portfolio.</p>
+        </div>
+      </div>
+      <div class="value-card">
+        <div class="value-card__icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="6.5" stroke="currentColor" stroke-width="1.4"/><circle cx="10" cy="10" r="1.6" fill="currentColor"/></svg>
+        </div>
+        <div>
+          <h3>Retention Editing</h3>
+          <p>Paced and structured to keep a thumb from scrolling past — every second earns the next.</p>
+        </div>
+      </div>
+      <div class="value-card">
+        <div class="value-card__icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2L12.2 7.6L18 10L12.2 12.4L10 18L7.8 12.4L2 10L7.8 7.6L10 2Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <h3>Premium Visual Style</h3>
+          <p>Cinematic color, sound and motion — the difference between "edited" and "designed."</p>
+        </div>
+      </div>
+      <div class="value-card">
+        <div class="value-card__icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10.5L8 14.5L16 5.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <h3>Professional Workflow</h3>
+          <p>Clear communication, honest timelines, and delivery you don't have to chase.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="slate reveal"><span class="n">Scene 03</span> — Selected Work</div>
+      <h2 class="reveal" data-reveal>A selection of cinematic edits, VFX-driven work, brand content and visual storytelling.</h2>
+      <p class="reveal" data-reveal>Created for creators, brands and businesses across fashion, travel, brand marketing and real estate. Select a category, then tap a project to watch.</p>
+    </div>
+
+    <div class="workselect reveal" data-reveal>
+      <div class="workselect__eyebrow">Select Work</div>
+      <div class="workselect__track glass" id="workSelectTrack" role="tablist" aria-label="Select work category">
+        <span class="workselect__indicator" id="workSelectIndicator" aria-hidden="true"></span>
+        <button type="button" class="workselect__btn is-active" data-cat="fashion" role="tab" aria-selected="true">Fashion</button>
+        <button type="button" class="workselect__btn" data-cat="travel" role="tab" aria-selected="false">Travel</button>
+        <button type="button" class="workselect__btn" data-cat="brands" role="tab" aria-selected="false">Brands &amp; Promotion</button>
+        <button type="button" class="workselect__btn" data-cat="real-estate" role="tab" aria-selected="false">Real Estate</button>
+      </div>
+    </div>
+
+    <div class="workcompartments" id="workCompartments">
+
+      <!-- ============================= FASHION ============================= -->
+      <div class="workcompartment is-active" data-compartment="fashion">
+        <div class="workcompartment__head">
+          <span class="eyebrow">Fashion</span>
+          <h3>Best Fashion Editing</h3>
+        </div>
+        <div class="workgrid">
+
+          <article class="reel-card" data-lightbox data-category="fashion"
+            data-title="Video 01" data-industry="Lifestyle / Fashion" data-duration="0:29"
+            data-goal="Capture off-duty style in motion for a lifestyle-facing feed."
+            data-video="assets/video/commercial-1.mp4" data-poster="assets/images/posters/commercial-1.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/commercial-1.jpg" data-src="assets/video/commercial-1.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:29</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">01</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 01</span><span class="reel-card__industry">Fashion</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="fashion"
+            data-title="Video 02" data-industry="Fashion / Creator Content" data-duration="1:09"
+            data-goal="A talking-head grooming and style piece cut for retention — pacing, captions and product beats timed to keep a creator's audience watching."
+            data-video="assets/video/fashion-01.mp4" data-poster="assets/images/posters/fashion-01.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/fashion-01.jpg" data-src="assets/video/fashion-01.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 1:09</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">02</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 02</span><span class="reel-card__industry">Fashion</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="fashion"
+            data-title="Video 04" data-industry="Fashion / Creator Content" data-duration="0:41"
+            data-goal="A fashion creator reel edited for pace and personality, built for saves and shares."
+            data-video="assets/video/fashion-03.mp4" data-poster="assets/images/posters/fashion-03.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/fashion-03.jpg" data-src="assets/video/fashion-03.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:41</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">04</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 04</span><span class="reel-card__industry">Fashion</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="fashion"
+            data-title="Video 05" data-industry="Fashion / Quick Cut" data-duration="0:07"
+            data-goal="A short, punchy fashion cut built for maximum retention in the first two seconds."
+            data-video="assets/video/fashion-04.mp4" data-poster="assets/images/posters/fashion-04.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/fashion-04.jpg" data-src="assets/video/fashion-04.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:07</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">05</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 05</span><span class="reel-card__industry">Fashion</span></span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ============================== TRAVEL ============================== -->
+      <div class="workcompartment" data-compartment="travel">
+        <div class="workcompartment__head">
+          <span class="eyebrow">Travel</span>
+          <h3>Best Travel Editing</h3>
+        </div>
+        <div class="workgrid">
+
+          <article class="reel-card" data-lightbox data-category="travel"
+            data-title="Video 02" data-industry="Travel / Cinematic" data-duration="0:13"
+            data-goal="A short cinematic travel cut — mood and place over narration."
+            data-video="assets/video/travel-01.mp4" data-poster="assets/images/posters/travel-01.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/travel-01.jpg" data-src="assets/video/travel-01.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:13</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">02</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 02</span><span class="reel-card__industry">Travel</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="travel"
+            data-title="Video 03" data-industry="Travel / Cinematic" data-duration="0:13"
+            data-goal="A second chapter from the same journey, graded for a warm, filmic tone."
+            data-video="assets/video/travel-02.mp4" data-poster="assets/images/posters/travel-02.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/travel-02.jpg" data-src="assets/video/travel-02.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:13</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">03</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 03</span><span class="reel-card__industry">Travel</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="travel"
+            data-title="Video 05" data-industry="Travel / Culture" data-duration="0:19"
+            data-goal="The evening ghat-side Aarti ritual at a river in Varanasi, cut to the rhythm of fire and ceremony."
+            data-video="assets/video/travel-04.mp4" data-poster="assets/images/posters/travel-04.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/travel-04.jpg" data-src="assets/video/travel-04.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:19</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">05</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 05</span><span class="reel-card__industry">Travel</span></span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ======================= BRANDS &amp; PROMOTION ======================= -->
+      <div class="workcompartment" data-compartment="brands">
+        <div class="workcompartment__head">
+          <span class="eyebrow">Brands &amp; Promotion</span>
+          <h3>Best Brand &amp; Promotion Editing</h3>
+        </div>
+        <div class="workgrid">
+
+          <article class="reel-card" data-lightbox data-category="brands"
+            data-title="Video 01" data-industry="Brands / Food &amp; Beverage" data-duration="0:34"
+            data-goal="A café promo edited in a fast, food-reel style — quick product shots, on-screen captions and a taste-test moment built for local discovery."
+            data-video="assets/video/brand-05.mp4" data-poster="assets/images/posters/brand-05.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/brand-05.jpg" data-src="assets/video/brand-05.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:34</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">01</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 01</span><span class="reel-card__industry">Brands &amp; Promotion</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="brands"
+            data-title="Video 02" data-industry="Hospitality / Nightlife" data-duration="0:35"
+            data-goal="Sell the mood of a night out — not just the venue."
+            data-video="assets/video/commercial-2.mp4" data-poster="assets/images/posters/commercial-2.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/commercial-2.jpg" data-src="assets/video/commercial-2.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:35</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">02</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 02</span><span class="reel-card__industry">Brands &amp; Promotion</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="brands"
+            data-title="Video 03" data-industry="Personal Brand / Founder Content" data-duration="0:36"
+            data-goal="Turn a desk-based routine into thumb-stopping personal-brand content."
+            data-video="assets/video/commercial-3.mp4" data-poster="assets/images/posters/commercial-3.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/commercial-3.jpg" data-src="assets/video/commercial-3.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:36</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">03</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 03</span><span class="reel-card__industry">Brands &amp; Promotion</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="brands"
+            data-title="Video 04" data-industry="Brands / Food &amp; Beverage" data-duration="0:44"
+            data-goal="A fast-paced taste-and-quality promo built to hook a scrolling feed."
+            data-video="assets/video/commercial-5.mp4" data-poster="assets/images/posters/commercial-5.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/commercial-5.jpg" data-src="assets/video/commercial-5.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:44</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">04</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 04</span><span class="reel-card__industry">Brands &amp; Promotion</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="brands"
+            data-title="Video 06" data-industry="Brands / Automotive" data-duration="0:37"
+            data-goal="A car-service brand promo built around an unlimited-year service offer."
+            data-video="assets/video/brand-03.mp4" data-poster="assets/images/posters/brand-03.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/brand-03.jpg" data-src="assets/video/brand-03.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:37</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">06</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 06</span><span class="reel-card__industry">Brands &amp; Promotion</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="brands"
+            data-title="Video 07" data-industry="Brands / Marketing" data-duration="0:38"
+            data-goal="A second promotional cut from the same shoot day, edited for variety across the brand's feed."
+            data-video="assets/video/brand-04.mp4" data-poster="assets/images/posters/brand-04.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/brand-04.jpg" data-src="assets/video/brand-04.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:38</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">07</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 07</span><span class="reel-card__industry">Brands &amp; Promotion</span></span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ============================ REAL ESTATE ============================ -->
+      <div class="workcompartment" data-compartment="real-estate">
+        <div class="workcompartment__head">
+          <span class="eyebrow">Real Estate</span>
+          <h3>Best Real Estate Editing</h3>
+        </div>
+        <div class="workgrid">
+
+          <article class="reel-card" data-lightbox data-category="real-estate"
+            data-title="Video 01" data-industry="Real Estate / VFX" data-duration="0:19"
+            data-goal="An aerial property reveal with motion-graphic overlays — advanced post-production for a commercial development."
+            data-video="assets/video/realestate-01.mp4" data-poster="assets/images/posters/realestate-01.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/realestate-01.jpg" data-src="assets/video/realestate-01.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:19</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">01</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 01</span><span class="reel-card__industry">Real Estate</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="reel-card" data-lightbox data-category="real-estate"
+            data-title="Video 02" data-industry="Real Estate / Professional" data-duration="0:12"
+            data-goal="A clean, professional interior walkthrough edit — steady pacing built for marketing use."
+            data-video="assets/video/realestate-02.mp4" data-poster="assets/images/posters/realestate-02.jpg">
+            <div class="reel-card__frame">
+              <video muted loop playsinline preload="none" poster="assets/images/posters/realestate-02.jpg" data-src="assets/video/realestate-02.mp4"></video>
+              <div class="reel-card__scrim"></div>
+              <span class="reel-card__stamp">9:16 · 0:12</span>
+              <div class="reel-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+              <div class="reel-card__lower glass">
+                <span class="reel-card__num">02</span>
+                <span class="reel-card__meta"><span class="reel-card__client">Video 02</span><span class="reel-card__industry">Real Estate</span></span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========================= REAL ESTATE FEATURE ========================= -->
+<section class="section re-feature" id="real-estate">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="slate reveal"><span class="n">Scene 04</span> — Real Estate</div>
+      <h2 class="reveal" data-reveal>Real Estate, edited differently.</h2>
+      <p class="reveal" data-reveal>From clean property walkthroughs to VFX-enhanced real estate content — editing first, shooting available on request.</p>
+    </div>
+
+    <div class="re-feature__grid reveal" data-reveal>
+
+      <article class="re-card" data-lightbox data-category="real-estate"
+        data-title="Video 01" data-industry="Real Estate / Professional" data-duration="0:12"
+        data-goal="A clean, professional interior walkthrough edit — steady pacing built for marketing use."
+        data-video="assets/video/realestate-02.mp4" data-poster="assets/images/posters/realestate-02.jpg">
+        <div class="re-card__media">
+          <video muted loop playsinline preload="none" poster="assets/images/posters/realestate-02.jpg" data-src="assets/video/realestate-02.mp4"></video>
+        </div>
+        <div class="re-card__scrim"></div>
+        <div class="re-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+        <div class="re-card__body glass">
+          <div class="re-card__tag">Clean</div>
+          <div class="re-card__title">Video 01</div>
+          <p class="re-card__desc">Professional, informative property walkthrough editing.</p>
+        </div>
+      </article>
+
+      <article class="re-card" data-lightbox data-category="real-estate"
+        data-title="Video 02" data-industry="Real Estate / VFX" data-duration="0:19"
+        data-goal="An aerial property reveal with motion-graphic overlays — advanced post-production for a commercial development."
+        data-video="assets/video/realestate-01.mp4" data-poster="assets/images/posters/realestate-01.jpg">
+        <div class="re-card__media">
+          <video muted loop playsinline preload="none" poster="assets/images/posters/realestate-01.jpg" data-src="assets/video/realestate-01.mp4"></video>
+        </div>
+        <div class="re-card__scrim"></div>
+        <div class="re-card__play"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 3.5L12.5 8L5 12.5V3.5Z" fill="currentColor"/></svg></span></div>
+        <div class="re-card__body glass">
+          <div class="re-card__tag">VFX</div>
+          <div class="re-card__title">Video 02</div>
+          <p class="re-card__desc">Advanced property visual effects and motion graphics.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== INSTAGRAM MANAGEMENT ===================== -->
+<section class="section" id="instagram-management">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="slate reveal"><span class="n">Scene 05</span> — Instagram Management</div>
+      <h2 class="reveal" data-reveal>A full page, not just a post.</h2>
+      <p class="reveal" data-reveal>Strategy, content, graphics and growth — presented the way an agency would pitch it.</p>
+    </div>
+
+    <div class="igcase reveal" data-reveal>
+      <div class="igcase__top">
+        <div class="igcase__intro">
+          <div class="igcase__logo"><img src="assets/images/sapphire-logo.jpg" alt="Sapphire Night Club &amp; Lounge logo" loading="lazy"></div>
+          <h3>Sapphire Night Club &amp; Lounge</h3>
+          <p>A full Instagram launch case study — positioning Badaun's newest premium nightlife destination from zero to opening night.</p>
+          <a class="igcase__link" href="https://www.instagram.com/sapphireclub_lounge" target="_blank" rel="noopener">
+            @sapphireclub_lounge
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <div class="igcase__media vf" data-reveal>
+          <img src="assets/images/sapphire-graphic.jpg" alt="Sapphire Night Club launch poster graphic" loading="lazy">
+          <div class="vf-c2"></div>
+        </div>
+      </div>
+
+      <div class="igcase__grid">
+        <div class="igcase__cell"><h4>Instagram Strategy</h4><p>Luxury-focused campaign built to create buzz and position Sapphire as Badaun's premier nightlife destination.</p></div>
+        <div class="igcase__cell"><h4>Reels</h4><p>Cinematic reels capturing ambience, cocktails, influencer visits and grand-opening moments.</p></div>
+        <div class="igcase__cell"><h4>Content Planning</h4><p>A 3-day launch plan — daily reels, stories, countdowns and live event coverage.</p></div>
+        <div class="igcase__cell"><h4>Graphics</h4><p>A premium black-and-gold creative system, including the launch poster and promotional designs.</p></div>
+        <div class="igcase__cell"><h4>Page Design</h4><p>A clean, luxury-coded feed with consistent branding and professional reel covers.</p></div>
+        <div class="igcase__cell"><h4>Brand Identity</h4><p>An elegant identity built on black, gold and cinematic storytelling.</p></div>
+        <div class="igcase__cell"><h4>Analytics</h4><p>Reach, engagement, profile visits and reel performance tracked through launch week.</p></div>
+        <div class="igcase__cell"><h4>Growth</h4><p>Awareness driven through influencer marketing, daily content and local targeting.</p></div>
+      </div>
+
+      <div class="igcase__reel">
+        <div class="igcase__reel-frame vf" data-reveal>
+          <video muted loop playsinline preload="none" poster="assets/images/posters/instagram-reel.jpg" data-src="assets/video/instagram-reel.mp4"></video>
+          <div class="vf-c2"></div>
+        </div>
+        <div class="igcase__reel-copy">
+          <h4>Commercial Reel — Opening Night</h4>
+          <p>One of two commercial reels produced for the launch, built to showcase the space, the crowd and the premium positioning in under twenty seconds.</p>
+          <div class="igcase__assets">
+            <span>Club Logo</span>
+            <span>Grand Opening Poster</span>
+            <span>Commercial Reel 01</span>
+            <span>Commercial Reel 02</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== SERVICES ============================== -->
+<section class="section section--tight" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="slate reveal"><span class="n">Scene 06</span> — Services</div>
+      <h2 class="reveal" data-reveal>What I can take off your plate.</h2>
+    </div>
+
+    <div class="services reveal" data-reveal>
+      <div class="service-card"><div class="service-card__n">01</div><h3>Video Editing</h3></div>
+      <div class="service-card"><div class="service-card__n">02</div><h3>Cinematic Reels</h3></div>
+      <div class="service-card"><div class="service-card__n">03</div><h3>VFX &amp; Advanced Editing</h3></div>
+      <div class="service-card"><div class="service-card__n">04</div><h3>Real Estate Editing</h3></div>
+      <div class="service-card"><div class="service-card__n">05</div><h3>Brand Marketing Videos</h3></div>
+      <div class="service-card"><div class="service-card__n">06</div><h3>Social Media Content</h3></div>
+      <div class="service-card"><div class="service-card__n">07</div><h3>Instagram Page Management</h3></div>
+      <div class="service-card"><div class="service-card__n">08</div><h3>Shooting — Available on Request</h3></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== SOFTWARE & SKILLS ======================== -->
+<section class="section section--tight" id="software">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="slate reveal"><span class="n">Scene 07</span> — Software &amp; Skills</div>
+      <h2 class="reveal" data-reveal>The toolkit behind the timeline.</h2>
+    </div>
+
+    <div class="tools reveal" data-reveal>
+      <div class="tool-card">
+        <div class="tool-card__glyph">Adobe Premiere Pro</div>
+        <div>
+          <div class="tool-card__bar" style="--pct:100%"><i></i></div>
+          <div class="tool-card__meta" style="margin-top:.9rem;">
+            <span class="tool-card__name">Primary NLE — full post pipeline</span>
+          </div>
+        </div>
+      </div>
+      <div class="tool-card">
+        <div class="tool-card__glyph">CapCut Pro</div>
+        <div>
+          <div class="tool-card__bar" style="--pct:100%"><i></i></div>
+          <div class="tool-card__meta" style="margin-top:.9rem;">
+            <span class="tool-card__name">Fast-turnaround social &amp; reel edits</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PROCESS ============================== -->
+<section class="section" id="process">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="slate reveal"><span class="n">Scene 08</span> — My Process</div>
+      <h2 class="reveal" data-reveal>Seven steps. Zero guesswork.</h2>
+    </div>
+
+    <div class="process reveal" data-reveal>
+      <div class="process__line"><i id="processLineFill"></i></div>
+      <div class="process__list">
+        <div class="process__item"><span class="process__dot"></span><div class="process__tc">00:01</div><div class="process__body"><h3>Discovery</h3><p>Understanding the brand, the audience, and what this piece actually needs to achieve.</p></div></div>
+        <div class="process__item"><span class="process__dot"></span><div class="process__tc">00:02</div><div class="process__body"><h3>Planning</h3><p>Structuring the shot list, references and timeline before a single clip is touched.</p></div></div>
+        <div class="process__item"><span class="process__dot"></span><div class="process__tc">00:03</div><div class="process__body"><h3>Creative Direction</h3><p>Locking the visual language — tone, pacing and style — up front.</p></div></div>
+        <div class="process__item"><span class="process__dot"></span><div class="process__tc">00:04</div><div class="process__body"><h3>Editing</h3><p>Building the structure, then the rhythm — the pass where the story actually forms.</p></div></div>
+        <div class="process__item"><span class="process__dot"></span><div class="process__tc">00:05</div><div class="process__body"><h3>Color Grading</h3><p>Shaping mood and consistency so every frame feels part of one world.</p></div></div>
+        <div class="process__item"><span class="process__dot"></span><div class="process__tc">00:06</div><div class="process__body"><h3>Sound Design</h3><p>Music, mix and sound that carries the pacing as much as the visuals do.</p></div></div>
+        <div class="process__item"><span class="process__dot"></span><div class="process__tc">00:07</div><div class="process__body"><h3>Final Delivery</h3><p>Export specs handled per platform, delivered on time, ready to post.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= INSTAGRAM CONNECT ========================= -->
+<section class="igband" id="connect">
+  <div class="wrap">
+    <div class="slate reveal" style="justify-content:center;"><span class="n">Scene 09</span> — Connect</div>
+    <h2 class="reveal" data-reveal>Follow the work as it happens<br>on <a class="handle" href="https://www.instagram.com/shatrughan_singhania_00/" target="_blank" rel="noopener">@shatrughan_singhania_00</a></h2>
+    <p class="reveal" data-reveal>New reels, behind-the-scenes cuts and client work, posted regularly.</p>
+    <div class="igband__cta reveal" data-reveal>
+      <a href="https://www.instagram.com/shatrughan_singhania_00/" target="_blank" rel="noopener" class="btn btn-primary magnetic">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"/></svg>
+        Follow My Work
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== CONTACT ============================== -->
+<section class="contact" id="contact">
+  <div class="contact__bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="contact__head">
+      <div class="slate reveal"><span class="n">Scene 10</span> — Contact</div>
+      <h2 class="reveal" data-reveal>Let's Create Something <span class="gold">Exceptional.</span></h2>
+      <p class="reveal" data-reveal>Have a brand, a launch, or a story that needs a cinematic edit? Tell me about it — replies within a day.</p>
+    </div>
+
+    <div class="contact__grid reveal" data-reveal>
+      <a href="mailto:shatrughanedit09@gmail.com" class="contact-card contact-card--feature magnetic">
+        <span class="contact-card__icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2.5" y="4.5" width="17" height="13" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M3.5 6L11 12L18.5 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></span>
+        <span>
+          <span class="contact-card__label">Email Me</span>
+          <span class="contact-card__value">shatrughanedit09@gmail.com <span class="contact-card__arrow"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+        </span>
+      </a>
+
+      <a href="tel:+916387413171" class="contact-card magnetic">
+        <span class="contact-card__icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 3.5C4.5 3.5 4 4 4 4.7C4 12 10 18 17.3 18C18 18 18.5 17.5 18.5 17V14.4C18.5 13.9 18.1 13.4 17.6 13.3L14.5 12.6C14 12.5 13.5 12.7 13.2 13.1L12.2 14.4C10 13.3 8.2 11.5 7.1 9.3L8.4 8.3C8.8 8 9 7.5 8.9 7L8.2 3.9C8.1 3.4 7.6 3 7.1 3L5 3.5Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></span>
+        <span>
+          <span class="contact-card__label">Click to Call</span>
+          <span class="contact-card__value">+91 63874 13171 <span class="contact-card__arrow"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+        </span>
+      </a>
+
+      <a href="https://wa.me/916387413171" target="_blank" rel="noopener" class="contact-card magnetic">
+        <span class="contact-card__icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 18.5L5.1 14.7C4.4 13.4 4 11.9 4 10.4C4 5.8 7.8 2 12.4 2C17 2 20.8 5.8 20.8 10.4C20.8 15 17 18.8 12.4 18.8C11 18.8 9.6 18.4 8.4 17.7L4 18.5Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></span>
+        <span>
+          <span class="contact-card__label">WhatsApp</span>
+          <span class="contact-card__value">Message Now <span class="contact-card__arrow"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+        </span>
+      </a>
+
+      <a href="https://www.instagram.com/shatrughan_singhania_00/" target="_blank" rel="noopener" class="contact-card contact-card--feature magnetic">
+        <span class="contact-card__icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2.5" y="2.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.4"/><circle cx="11" cy="11" r="4" stroke="currentColor" stroke-width="1.4"/><circle cx="16.3" cy="5.7" r="1" fill="currentColor"/></svg></span>
+        <span>
+          <span class="contact-card__label">Instagram</span>
+          <span class="contact-card__value">@shatrughan_singhania_00 <span class="contact-card__arrow"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__mark">SS — Shatrughan Singhania</div>
+    <div class="site-footer__meta">
+      <span>© <span id="year"></span> Shatrughan Singhania</span>
+      <a href="mailto:shatrughanedit09@gmail.com">shatrughanedit09@gmail.com</a>
+      <a href="https://www.instagram.com/shatrughan_singhania_00/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-cta">
+  <a href="tel:+916387413171" aria-label="Call">
+    <svg width="16" height="16" viewBox="0 0 22 22" fill="none"><path d="M5 3.5C4.5 3.5 4 4 4 4.7C4 12 10 18 17.3 18C18 18 18.5 17.5 18.5 17V14.4C18.5 13.9 18.1 13.4 17.6 13.3L14.5 12.6C14 12.5 13.5 12.7 13.2 13.1L12.2 14.4C10 13.3 8.2 11.5 7.1 9.3L8.4 8.3C8.8 8 9 7.5 8.9 7L8.2 3.9C8.1 3.4 7.6 3 7.1 3L5 3.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+    Call
+  </a>
+  <a href="https://wa.me/916387413171" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg width="16" height="16" viewBox="0 0 22 22" fill="none"><path d="M4 18.5L5.1 14.7C4.4 13.4 4 11.9 4 10.4C4 5.8 7.8 2 12.4 2C17 2 20.8 5.8 20.8 10.4C20.8 15 17 18.8 12.4 18.8C11 18.8 9.6 18.4 8.4 17.7L4 18.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+    WhatsApp
+  </a>
+  <a href="#contact" class="is-primary">Work With Me</a>
+</div>
+
+<!-- ============================== LIGHTBOX ============================== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="lightbox__inner">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4L14 14M14 4L4 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous project">
+      <svg width="18" height="18" viewBox="0 0 20 20" fill="none"><path d="M12.5 4.5L7 10L12.5 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next project">
+      <svg width="18" height="18" viewBox="0 0 20 20" fill="none"><path d="M7.5 4.5L13 10L7.5 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="lightbox__media vf" id="lightboxMediaWrap">
+      <video id="lightboxVideo" playsinline controls></video>
+      <div class="vf-c2"></div>
+    </div>
+    <div class="lightbox__panel">
+      <div>
+        <div class="slate" id="lightboxIndustry" style="margin-bottom:.7rem;"></div>
+        <h3 id="lightboxTitle"></h3>
+      </div>
+      <div class="lightbox__field"><h4>Creative Goal</h4><p id="lightboxGoal"></p></div>
+      <div class="lightbox__field"><h4>My Role</h4><p id="lightboxRole"></p></div>
+      <div class="lightbox__field"><h4>Editing Process</h4><p id="lightboxProcess"></p></div>
+      <div class="lightbox__field"><h4>Final Result</h4><p id="lightboxResult"></p></div>
+    </div>
+  </div>
+</div>
+
+<script src="vendor/gsap/gsap.min.js"></script>
+<script src="vendor/gsap/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
